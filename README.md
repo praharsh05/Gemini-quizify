@@ -1,7 +1,5 @@
 # Gemini-quizify
 
-## Overview
-
 An AI-powered quiz platform crafted to offer students and learners an interactive way to solidify their grasp of different subjects. Using advanced AI, the tool generates quizzes from documents users provide, giving immediate feedback and thorough explanations to aid in better understanding and memory retention, thereby enriching the learning process.
 
 ## Objective:
