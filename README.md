@@ -25,24 +25,22 @@ Recognizing the lack of accessible and effective means for learners to reinforce
 
 ## Implementation
 
-### Agentic Workflow (RAG)
+### Retrieval-Augmented Generation
 <img width="727" alt="Screenshot 2024-09-28 at 00 18 02" src="https://github.com/user-attachments/assets/51dff727-9339-4069-b719-a251c0da1b42">
-
-*RAG implementation Architecture*
 
 ### Snapshots
 
-**1. PDF Input**
-
-
-
-
-
-**2. Generated Questions**
+**1. Data Ingestion Pipeline**
 <img width="1354" alt="Screenshot 2024-09-28 at 00 12 49" src="https://github.com/user-attachments/assets/8e023734-1f88-4d28-bd84-c866c88a2f7c">
 <img width="921" alt="Screenshot 2024-09-28 at 00 13 35" src="https://github.com/user-attachments/assets/ef935efb-911b-435f-934d-994e1adf0f57">
+
+**2. Vector Embedding using LangChain**
 <img width="1013" alt="Screenshot 2024-09-28 at 00 14 17" src="https://github.com/user-attachments/assets/b8dfec8a-d7ff-4893-82ec-a4887b11826f">
+
+**3. ChromaDB Collection of Vector Embedding**
 <img width="700" alt="Screenshot 2024-09-28 at 00 14 59" src="https://github.com/user-attachments/assets/b5e0bcd2-2d0f-4210-87ea-76458b8d824b">
+
+**4. Quiz Generation and Validation**
 <img width="1184" alt="Screenshot 2024-09-28 at 00 16 04" src="https://github.com/user-attachments/assets/05b0edf6-00d1-4b7f-82a2-efa5cd4ae10a">
 <img width="1099" alt="Screenshot 2024-09-28 at 00 17 19" src="https://github.com/user-attachments/assets/5895f088-635f-4936-acca-800e07dcfc1a">
 
